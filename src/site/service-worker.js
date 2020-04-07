@@ -1,7 +1,7 @@
-// Service Worker for static.ericraslich.com
-// Replace with your own site name ^
+// Service Worker for bluestareval.netlify.com
+// TODO: Replace with your own site name ^
 
-const VERSION = 'v1::';
+const VERSION = 'v1:test:';
 
 self.addEventListener('install', function(event) {
     console.log('WORKER: install event in progress.');
@@ -21,6 +21,9 @@ self.addEventListener('install', function(event) {
                 // after making HTTP requests for each of them.
                 return cache.addAll([
                     '/',
+                    '/evaluate',
+                    '/contacts',
+                    '/buoys',
                     // '/offline/',
                     // '/hire/',
                     '/css/main.css',
@@ -99,7 +102,7 @@ self.addEventListener('fetch', function(event) {
                     console.log('WORKER: fetch request failed in both cache and network.')
                     // Create a response programmatically here. First parameter is the response body,
                     // the second is the options definitions.
-                    return caches.match('/offline/') 
+                    return caches.match('/offline') 
                     // new Response('<h1>Service Unavaible. Maybe call instead?</h1>', {
                     //     status: 503,
                     //     statusText: 'Service Unavailable',

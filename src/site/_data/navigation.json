@@ -4,15 +4,15 @@
         "title": "Home"
     },
     {
-        "url": "/about/",
-        "title": "About"
+        "url": "/evaluate/",
+        "title": "Evaluate"
     },
     {
-        "url": "/contact/",
-        "title": "Contact"
+        "url": "/contacts/",
+        "title": "Contact Numbers"
     },
     {
-        "url": "/map/",
-        "title": "Map"
+        "url": "/buoys/",
+        "title": "Report Buoys"
     }
 ]

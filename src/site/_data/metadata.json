@@ -1,12 +1,12 @@
 {
-  "title": "State Site Template",
-  "url": "",
+  "title": "Blue Star Evaluation Site",
+  "url": "bluestareval.netlify.com",
   "author": {
     "name": "Eric Raslich",
     "email": "rasliche@gmail.com",
-    "github": "",
-    "twitter": "",
-    "website": "floridakeyswebdevelopment.com"
+    "github": "github.com/rasliche/bluestareval",
+    "twitter": "@rasliche",
+    "website": "ericraslich.com"
   },
   "social": {
     "twitter": "",
@@ -14,9 +14,9 @@
     "email": ""    
   },
   "address": {
-    "street": "",
-    "city": "",
-    "state": "",
-    "zip": ""
+    "street": "33 E Quay Rd",
+    "city": "Key West",
+    "state": "FL",
+    "zip": "33043"
   }
 }

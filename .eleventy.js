@@ -1,6 +1,7 @@
 module.exports = function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/site/js");
+  eleventyConfig.addPassthroughCopy("src/site/service-worker.js");
   eleventyConfig.addFilter("dateDisplay", require("./src/utils/filters/date.js"));
 
   return {
